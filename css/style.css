@@ -1,32 +1,85 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
-header, nav, footer {
-    background-color: #333;
-    color: #fff;
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    color: #FF6F00; /* Naranja */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    display: block;
+    padding: 10px 15px;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    padding: 0;
+}
+
+nav ul ul li {
+    display: block;
+    margin: 0;
+}
+
+nav ul ul li a {
+    padding: 10px 15px;
+    font-size: 0.9em;
+}
+
+nav ul ul li a:hover {
+    background-color: #FF6F00; /* Naranja */
+}
+
+main {
+    padding: 20px;
+}
+
+main .featured h2 {
+    color: #333333;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-h1, h2, h3 {
-    color: #333;
-}
-
-.product {
-    display: inline-block;
-    margin: 20px;
-    padding
