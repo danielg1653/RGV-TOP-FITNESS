@@ -1,0 +1,33 @@
+# Configuración general
+title: RGV TOP FITNESS
+description: "Tu tienda online de ropa deportiva"
+url: "http://danielg1653.github.io"  # Cambia esto si tienes un dominio personalizado
+baseurl: ""  # Usar "" para la raíz
+
+# Configuración del tema
+theme: minima  # Cambia esto si decides usar otro tema
+
+# Opciones de navegación
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About Us"
+    url: "/about/"
+  - title: "Shop"
+    url: "/shop/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Estilo
+sass:
+  style: compressed  # Cambia esto a 'expanded' si deseas ver el CSS en desarrollo
+
+# Configuración de SEO
+google_analytics: "UA-XXXXXX"  # Reemplaza con tu ID de seguimiento de Google Analytics si lo tienes
+
+# Otras configuraciones
+collections:
+  products:
+    output: true
+
+

@@ -1,0 +1,7 @@
+@use "sass:color";
+
+$primary-color: #3498db; // Un ejemplo de color
+
+body {
+    background-color: color.adjust($primary-color, $lightness: 20%);
+}

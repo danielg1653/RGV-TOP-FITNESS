@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - RGV TOP FITNESS</title>
+    <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1><a href="{{ '/' | relative_url }}">RGV TOP FITNESS</a></h1>
+            </div>
+            <div class="header-right">
+                <div class="location">
+                    <p>Store Location</p> <!-- Aquí puedes poner la ubicación de la tienda -->
+                </div>
+                <div class="social-media">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                </div>
+                <div class="signin">
+                    <a href="#">Sign In</a>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="cart">
+                <p>Favorites</p>
+                <p>Cart</p>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="new-products">
+            <h2>Nuevos Productos</h2>
+            <!-- Aquí puedes agregar el carrusel o slider para los nuevos productos -->
+        </section>
+
+        <section class="about-us">
+            <h2>¿Quiénes Somos?</h2>
+            <p>Aquí puedes poner información sobre RGV TOP FITNESS y lo que ofrecen.</p>
+        </section>
+
+        <section class="video">
+            <h2>Vídeo</h2>
+            <video src="your-video-url.mp4" controls></video>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact">
+            <h2>Contacto</h2>
+            <p>Teléfono: [Tu número]</p>
+            <p>Ubicación: [Ubicación del gimnasio]</p>
+            <p>Email: [Tu correo electrónico]</p>
+        </div>
+    </footer>
+
+    <script src="{{ '/js/script.js' | relative_url }}"></script>
+</body>
+</html>
